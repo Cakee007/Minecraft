@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Minecraft 0.14.3 Download</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        .download-container {
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .download-btn {
+            display: inline-block;
+            margin: 10px;
+            padding: 15px 30px;
+            font-size: 18px;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        .download-btn:hover {
+            opacity: 0.9;
+        }
+        .ios-btn {
+            background-color: #007AFF;
+        }
+        .android-btn {
+            background-color: #3DDC84;
+        }
+        img {
+            width: 200px; /* Adjust the image size as needed */
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="download-container">
+        <img src="minecraft-icon.png" alt="Minecraft Logo"> <!-- Replace with the actual Minecraft icon image -->
+        <h1>Download Minecraft 0.14.3 - Cake Download</h1>
+        <a href="itms-services://?action=download-manifest&url=http://127.0.0.1:3000/Cake Download/iOS.plist"
+           class="download-btn ios-btn">iOS Download</a>
+        <a href="intent://scan/#Intent;scheme=package;package=com.haoyu.minecraftpe;end"
+           class="download-btn android-btn">Android Download</a>
+    </div>
+
+</body>
+</html>
