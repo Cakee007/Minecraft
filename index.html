@@ -2,62 +2,71 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Minecraft 0.14.3 Download</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft PE 0.14.3怀旧版下载</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background: #f4f4f4;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            flex-direction: column;
-        }
-        .download-container {
+            margin: 50px;
             text-align: center;
         }
-        h1 {
-            color: #333;
-            margin-bottom: 20px;
+        .download-container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
         }
-        .download-btn {
-            display: inline-block;
-            margin: 10px;
-            padding: 15px 30px;
-            font-size: 18px;
-            color: #fff;
+        .platform {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .download-button {
+            background-color: #007BFF;
+            color: white;
             border: none;
-            border-radius: 5px;
-            text-decoration: none;
+            padding: 10px 20px;
+            margin: 5px;
+            font-size: 16px;
+            cursor: pointer;
             transition: background-color 0.3s;
         }
-        .download-btn:hover {
-            opacity: 0.9;
+        .download-button:hover {
+            background-color: #0056b3;
         }
-        .ios-btn {
-            background-color: #007AFF;
+        .icon {
+            width: 100px; /* Adjust the size as needed */
+            height: auto;
+            margin-bottom: 20px;
         }
-        .android-btn {
-            background-color: #3DDC84;
+        h1 {
+            color: #444;
+            margin-bottom: 20px;
         }
-        img {
-            width: 200px; /* Adjust the image size as needed */
-            margin-bottom: 30px;
+        .download-title {
+            margin-bottom: 10px;
         }
     </style>
 </head>
 <body>
-
+    <img src="Minecraft.png" alt="Minecraft Icon" class="icon">
+    <h1>Minecraft PE 0.14.3怀旧版下载</h1>
+    
     <div class="download-container">
-        <img src="Minecraft.png" alt="Minecraft Logo"> <!-- Replace with the actual Minecraft icon image -->
-        <h1>Download Minecraft 0.14.3 - Cake Download</h1>
-        <a href="itms-services://?action=download-manifest&url=https://github.com/Cakee007/Minecraft/raw/main/iOS.plist"
-           class="download-btn ios-btn">iOS Download</a>
-        <a href="intent://scan/#Intent;scheme=package;package=com.mojang.minecraftpe;end"
-           class="download-btn android-btn">Android Download</a>
+        <!-- iOS Downloads -->
+        <div class="platform">
+            <div class="download-title">iOS设备</div>
+            <a href="https://cake233.lanzout.com/idJeT1f5l6kj" class="download-button">蓝奏云安装(密码123)</a>
+            <a href="itms-services://?action=download-manifest&url=https://github.com/Cakee007/Minecraft/raw/main/iOS.plist" class="download-button">GitHub安装</a>
+            <a href="https://www.123pan.com/s/4ntkjv-56PO.html" class="download-button">123云盘下载</a>
+        </div>
+        
+        <!-- Android Downloads -->
+        <div class="platform">
+            <div class="download-title">Android设备</div>
+            <a href="https://cake233.lanzout.com/i7WxO285eakf" class="download-button">蓝奏云下载(密码123)</a>
+            <a href="https://github.com/Cakee007/Minecraft/raw/main/MinecraftPE0.14.3.apk" class="download-button">GitHub下载</a>
+            <a href="https://www.123pan.com/s/4ntkjv-q6PO.html" class="download-button">123云盘下载</a>
+        </div>
     </div>
-
 </body>
 </html>
